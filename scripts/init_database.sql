@@ -3,19 +3,24 @@
 Create Database and Schemas
 =============================================================
 Script Purpose:
-    This script creates a new database named 'OULD DataWarehouse'and sets up three schemas 
+    This script creates a new database named DataWarehouse and sets up three schemas 
     within the database: 'bronze', 'silver', and 'gold'.
 */
+USE master;
+GO
+-- Create the 'DataWarehouse3' database
+CREATE DATABASE DataWarehouse3;
+GO
 
---CREATE DATABASE
-use master;
-create database OULAD_DataWarehouse;
-use OULAD_DataWarehouse;
+USE DataWarehouse3;
+GO
 
---CREATE SCHEMAS
-create schema bronze;
-go
-create schema silver;
-go
-create schema gold;
-go
+-- Create Schemas
+CREATE SCHEMA bronze;
+GO
+
+CREATE SCHEMA silver;
+GO
+
+CREATE SCHEMA gold;
+GO
