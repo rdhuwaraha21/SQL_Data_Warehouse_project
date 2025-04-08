@@ -64,12 +64,4 @@ The Gold Layer is the business-level data representation, structured to support 
 
 ---
 
-## How to Use This Data Catalog?
-- This document serves as a reference for **analysts, engineers, and business users** to understand the structure of the Gold Layer.
-- The tables are **optimized for querying, analytics, and reporting.**
-- Ensure any modifications to the schema are reflected in this document.
 
----
-
-### **Maintained By:**  
-💡 **Data Engineering Team** | 📅 **Last Updated: March 2025**
