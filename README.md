@@ -5,10 +5,10 @@
 #### The solution is built around best practices in data engineering, including stored procedures for ETL, consistent naming conventions, quality checks, and a final star schema for the Gold layer.
 
 ### Project Overview
-Objectives:
+  ##### Objectives:
 Design a scalable and maintainable data warehouse architecture
 
-Load and clean raw data from source systems (CRM and ERP)
+ Load and clean raw data from source systems (CRM and ERP)
 
 Implement layer-wise ETL pipelines (Bronze → Silver → Gold)
 
