@@ -6,6 +6,10 @@ Script Purpose:
     This script creates tables in the 'bronze' schema, dropping existing tables 
     if they already exist.
 	  Run this script to re-define the DDL structure of 'bronze' Tables
+
+Check if table crm_cst_info exists in the bronze schema.
+If it does, drop (delete) it.
+Then create a new table with customer information fields
 ===============================================================================
 */
 
